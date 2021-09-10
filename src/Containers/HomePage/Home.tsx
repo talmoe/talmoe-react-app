@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactLogo from '../assets/logo.svg';
-import '../App.css';
+import ReactLogo from '../../Assets/logo.svg';
+import '../../App.css';
 import styled from "styled-components";
 import {
     BrowserRouter as Router,
@@ -9,7 +9,7 @@ import {
     useRouteMatch,
     useParams
 } from "react-router-dom";
-import MainLayout from '../Components/MainLayout';
+import MainLayout from '../../Components/MainLayout';
 
 
 

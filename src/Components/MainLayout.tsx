@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
-import ReactLogo from "../assets/logo.svg";
+import ReactLogo from "../Assets/logo.svg";
 import {Link} from "react-router-dom";
-import {CopyRight, P2} from "../Containers/Home";
+import {CopyRight, P2} from "../Containers/HomePage/Home";
 
 
 export const OuterContainer = styled.div`
