@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
-import ReactLogo from "../Assets/logo.svg";
+import reactLogo from '../../Assets/images/logo.svg'
 import {Link} from "react-router-dom";
-import {CopyRight, P2} from "../Containers/HomePage/Home";
+import {CopyRight} from "../../Containers/HomePage/Home";
+import {Footer, Header, P2} from "../../Styles/Common/CommonStyles";
 
 
 export const OuterContainer = styled.div`
@@ -23,25 +24,6 @@ export const Container = styled.div`
   margin-bottom: 5vh;
 `;
 
-export const Header = styled.text`
-  color: #fff;
-  font-size: 36px;
-  margin-top: 18px;
-  letter-spacing: 0.5px;
-`;
-
-export const Footer = styled.footer`
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  position: absolute;
-  bottom: 0;
-  height: 54px;
-  background-color: #28283A;
-  align-items: center;
-  justify-content: center;
-    
-`
 
 type Props = {
     children: JSX.Element|JSX.Element[],
@@ -52,7 +34,7 @@ const MainLayout = ({children}: Props) => {
         <OuterContainer>
             <Container>
                 <Link style={{textDecoration: "none"}} to="/">
-                <img src={ReactLogo} alt={"Firm logo"} height={70} width={70}/>
+                    <img src={reactLogo} alt={"Firm logo"} height={70} width={70}/>
                 </Link>
                 <Header>Talmoe</Header>
                 {children}

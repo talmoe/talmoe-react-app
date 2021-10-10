@@ -1,6 +1,6 @@
 import React from 'react';
-import MainLayout from "../../Components/MainLayout";
-import {P1} from "../HomePage/Home";
+import MainLayout from "../../Components/MainLayout/MainLayout";
+import {P1} from "../../Styles/Common/CommonStyles";
 
 
 

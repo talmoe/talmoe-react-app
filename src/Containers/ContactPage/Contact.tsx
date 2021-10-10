@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button, P1, P2} from "../HomePage/Home";
 import styled from "styled-components";
-import MainLayout from "../../Components/MainLayout";
+import MainLayout from "../../Components/MainLayout/MainLayout";
 import emailjs from 'emailjs-com';
+import {P1, P2} from "../../Styles/Common/CommonStyles";
 
 emailjs.init("user_khXIp5LUO08FOIW82bBWi");
 
