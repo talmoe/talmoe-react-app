@@ -1,6 +1,6 @@
-import React, {CSSProperties} from "react";
+import React, { CSSProperties } from "react";
 import styled from "styled-components";
-import {CopyRight} from "../../Containers/HomePage/Home";
+import { CopyRight } from "../../Containers/HomePage/Home";
 import { P2 } from "../../Styles/Common/CommonStyles";
 
 export const FooterContainer = styled.footer`
@@ -18,12 +18,12 @@ export const FooterContainer = styled.footer`
 
 function Footer(style: CSSProperties) {
 
-    return  (
-        <FooterContainer style={style}>
-        <CopyRight>TALMOE </CopyRight>
-        <P2>Based in Vanylven, Norway</P2>
-        </FooterContainer>
-    );
+  return (
+    <FooterContainer style={style}>
+      <P2>TALMOE &copy; 2022</P2>
+      <P2>Based in Vanylven, Norway</P2>
+    </FooterContainer>
+  );
 }
 
 export default Footer;

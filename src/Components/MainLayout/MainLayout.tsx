@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 import reactLogo from '../../Assets/images/logo.svg'
-import {Link} from "react-router-dom";
-import {CopyRight} from "../../Containers/HomePage/Home";
-import {Footer, Header, P2} from "../../Styles/Common/CommonStyles";
+import { Link } from "react-router-dom";
+import { CopyRight } from "../../Containers/HomePage/Home";
+import { Footer, Header, P2 } from "../../Styles/Common/CommonStyles";
 
 
 export const OuterContainer = styled.div`
@@ -26,21 +26,21 @@ export const Container = styled.div`
 
 
 type Props = {
-    children: JSX.Element|JSX.Element[],
+    children: JSX.Element | JSX.Element[],
 };
 
-const MainLayout = ({children}: Props) => {
-    return(
+const MainLayout = ({ children }: Props) => {
+    return (
         <OuterContainer>
             <Container>
-                <Link style={{textDecoration: "none"}} to="/">
-                    <img src={reactLogo} alt={"Firm logo"} height={70} width={70}/>
+                <Link style={{ textDecoration: "none" }} to="/">
+                    <img src={reactLogo} alt={"Firm logo"} height={70} width={70} />
                 </Link>
                 <Header>Talmoe</Header>
                 {children}
             </Container>
             <Footer>
-                <CopyRight>TALMOE </CopyRight>
+                <P2>TALMOE &copy; 2022</P2>
                 <P2>Based in Vanylven, Norway</P2>
             </Footer>
         </OuterContainer>

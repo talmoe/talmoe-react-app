@@ -28,6 +28,41 @@ export const P2 = styled.p`
   letter-spacing: 0.5px;
 
 `;
+export const HeadingBald = styled.p`
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+`;
+export const SubHeadingBald = styled.p`
+  color: #fff;
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+`;
+export const ParagraphWhite = styled.p`
+  color: #fff;
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+`;
+export const PrivacyPolicyOuterDiv = styled.div`
+  letter-spacing: 0.5px;
+  justify-content: center;
+`;
+export const PrivacyPolicyInnerDiv = styled.div`
+  padding-left: 30%;
+  padding-right: 30%;
+`;
+export const LinkOrange = styled.a`
+  color: #FFC17D;
+`;
+
+
+
+
 
 export const Footer = styled.footer`
   display: flex;

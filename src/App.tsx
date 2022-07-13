@@ -4,23 +4,31 @@ import { Route } from 'react-router-dom';
 import Home from "./Containers/HomePage/Home";
 import Contact from "./Containers/ContactPage/Contact";
 import About from "./Containers/AboutPage/About";
+import Termsofservice from './Containers/TermsOfService/Termsofservice';
+import Privacypolicy from './Containers/PrivacyPolicy/Privacypolicy';
 
 
 
 function App() {
 
-    return (
-      <div className={"Talmoe-app"}>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path={"/contact"}>
-          <Contact />
-        </Route>
-        <Route exact path={"/about"}>
-          <About />
-        </Route>
-      </div>
+  return (
+    <div className={"Talmoe-app"}>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path={"/contact"}>
+        <Contact />
+      </Route>
+      <Route exact path={"/about"}>
+        <About />
+      </Route>
+      <Route exact path={"/termsofservice"}>
+        <Termsofservice />
+      </Route>
+      <Route exact path={"/privacypolicy"}>
+        <Privacypolicy />
+      </Route>
+    </div>
   );
 }
 
