@@ -48,11 +48,11 @@ export const ParagraphWhite = styled.p`
   letter-spacing: 0.5px;
   padding-bottom: 10px;
 `;
-export const PrivacyPolicyOuterDiv = styled.div`
+export const PrivacyPolicyAndTermsOfServiceOuterDiv = styled.div`
   letter-spacing: 0.5px;
   justify-content: center;
 `;
-export const PrivacyPolicyInnerDiv = styled.div`
+export const PrivacyPolicyAndTermsOfServiceInnerDiv = styled.div`
   padding-left: 30%;
   padding-right: 30%;
 `;
