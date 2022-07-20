@@ -6,6 +6,8 @@ import Contact from "./Containers/ContactPage/Contact";
 import About from "./Containers/AboutPage/About";
 import Termsofservice from './Containers/TermsOfService/Termsofservice';
 import Privacypolicy from './Containers/PrivacyPolicy/Privacypolicy';
+import Faq from './Containers/FAQ/Faq';
+import Usermanual from './Containers/UserManual/Usermanual';
 
 
 
@@ -27,6 +29,12 @@ function App() {
       </Route>
       <Route exact path={"/privacypolicy"}>
         <Privacypolicy />
+      </Route>
+      <Route exact path={"/faq"}>
+        <Faq />
+      </Route>
+      <Route exact path={"/usermanual"}>
+        <Usermanual />
       </Route>
     </div>
   );

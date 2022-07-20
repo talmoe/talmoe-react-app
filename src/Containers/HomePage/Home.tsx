@@ -143,7 +143,15 @@ function Home() {
               <Button style={{ marginRight: "18px" }}>Terms of Service</Button>
             </Link>
             <Link style={{ textDecoration: "none" }} to="/privacypolicy">
-              <Button>Privacy policy</Button>
+              <Button>Privacy Policy</Button>
+            </Link>
+          </ButtonContainer>
+          <ButtonContainer>
+            <Link style={{ textDecoration: "none" }} to="/faq">
+              <Button style={{ marginRight: "18px" }}>FAQ</Button>
+            </Link>
+            <Link style={{ textDecoration: "none" }} to="/usermanual">
+              <Button>User Manual</Button>
             </Link>
           </ButtonContainer>
         </Container>
