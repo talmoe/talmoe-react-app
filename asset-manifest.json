@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.6495904f.chunk.css",
-    "main.js": "/static/js/main.051a2fc9.chunk.js",
-    "main.js.map": "/static/js/main.051a2fc9.chunk.js.map",
+    "main.js": "/static/js/main.65e9e8b7.chunk.js",
+    "main.js.map": "/static/js/main.65e9e8b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ceb1b60.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ceb1b60.js.map",
-    "static/js/2.37bb8945.chunk.js": "/static/js/2.37bb8945.chunk.js",
-    "static/js/2.37bb8945.chunk.js.map": "/static/js/2.37bb8945.chunk.js.map",
+    "static/js/2.c2d79599.chunk.js": "/static/js/2.c2d79599.chunk.js",
+    "static/js/2.c2d79599.chunk.js.map": "/static/js/2.c2d79599.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6495904f.chunk.css.map": "/static/css/main.6495904f.chunk.css.map",
-    "static/js/2.37bb8945.chunk.js.LICENSE.txt": "/static/js/2.37bb8945.chunk.js.LICENSE.txt",
+    "static/js/2.c2d79599.chunk.js.LICENSE.txt": "/static/js/2.c2d79599.chunk.js.LICENSE.txt",
     "static/media/Sunnnmøre_kulturnæringshage logo.e93418ed.png": "/static/media/Sunnnmøre_kulturnæringshage logo.e93418ed.png",
     "static/media/logo.472ea8c2.svg": "/static/media/logo.472ea8c2.svg",
     "static/media/powered-by-Innovation-Norway-Logo.c4294bfa.jpg": "/static/media/powered-by-Innovation-Norway-Logo.c4294bfa.jpg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1ceb1b60.js",
-    "static/js/2.37bb8945.chunk.js",
+    "static/js/2.c2d79599.chunk.js",
     "static/css/main.6495904f.chunk.css",
-    "static/js/main.051a2fc9.chunk.js"
+    "static/js/main.65e9e8b7.chunk.js"
   ]
 }
