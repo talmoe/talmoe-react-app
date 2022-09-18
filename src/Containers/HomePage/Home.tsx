@@ -10,8 +10,9 @@ import {
   Link,
 } from "react-router-dom";
 import ReactLogo from "../../Assets/images/logo.svg";
+import Header from  "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
-import { Header, HeaderSmall, P1 } from "../../Styles/Common/CommonStyles";
+import {HeaderSmall, P1 } from "../../Styles/Common/CommonStyles";
 
 
 
@@ -122,47 +123,8 @@ const ImageInnovationNorway = styled.img`
 function Home() {
   return (
     <OuterContainer>
-      <div />
-      <div style={{ marginRight: 16, marginLeft: 16, display: "flex", flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <Container >
-          <Link style={{ textDecoration: "none" }} to="/">
-            <img src={ReactLogo} alt={"Firm logo"} height={70} width={70} />
-          </Link>
-          <Header>Talmoe</Header>
-          <P1 style={{ marginTop: "32px" }}>Coming soon to App Store and Google Play</P1>
-          <ButtonContainer>
-            <Link style={{ textDecoration: "none" }} to="/about">
-              <Button style={{ marginRight: "18px" }}>About</Button>
-            </Link>
-            <Link style={{ textDecoration: "none" }} to="/contact">
-              <Button>Contact</Button>
-            </Link>
-          </ButtonContainer>
-          <ButtonContainer>
-            <Link style={{ textDecoration: "none" }} to="/termsofservice">
-              <Button style={{ marginRight: "18px" }}>Terms of Service</Button>
-            </Link>
-            <Link style={{ textDecoration: "none" }} to="/privacypolicy">
-              <Button>Privacy Policy</Button>
-            </Link>
-          </ButtonContainer>
-          <ButtonContainer>
-            <Link style={{ textDecoration: "none" }} to="/faq">
-              <Button style={{ marginRight: "18px" }}>FAQ</Button>
-            </Link>
-            <Link style={{ textDecoration: "none" }} to="/usermanual">
-              <Button>User Manual</Button>
-            </Link>
-          </ButtonContainer>
-        </Container>
-        <HeaderSmall style={{ marginBottom: "32px" }}>Partners</HeaderSmall>
-        <PartnersContainer>
-          <ImageVanylven src={vanylvenUtvikling} />
-          <ImageInnovationNorway src={innovasjonNorge} />
-          <Image src={aakp} width={200} />
-          <Image src={sunnmoreKulturnaringshage} width={300} />
-        </PartnersContainer>
-      </div>
+      <Header />
+
       <Footer />
     </OuterContainer>
 
