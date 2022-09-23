@@ -5,43 +5,51 @@ import Faq from "../../Containers/FAQ/Faq";
 
 const HeaderContainer = styled.header`
   display: flex;
-  justify-content: flex-start;
+  //justify-content: space-between;
   align-items: center;
   padding: 0 4rem;
   width: 100%;
 `;
 
-const TalmoeLogo = styled.img`
-  height: 54px;
+const LogoSection = styled.div`
+  width: 25rem;
 `;
 
-const NavLinks = styled.div`
+const TalmoeLogo = styled.img`
+  height: 50px;
+`;
+
+const NavLinks = styled.nav`
   display: flex;
+  justify-content: space-between;
+  width: 20rem;
   align-items: center;
   color: white;
-
 `;
 
 const HomeLink = styled.div`
-  width: 5rem;
 `;
 
 const PricingLink = styled.div`
-  width: 5rem;
 `;
 
 const AboutLink = styled.div`
-  width: 5rem;
 `;
 
 const FAQLink = styled.div`
-  width: 5rem;
+  display: flex;
+  flex-flow: row-reverse;
+  width: 100%;
+  padding: 1rem;
+  
   color: white;
 `;
 
 function Header() {
     return <HeaderContainer>
-        <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
+        <LogoSection>
+            <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
+        </LogoSection>
         <NavLinks>
             <HomeLink>
                 Home
