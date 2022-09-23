@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 import talmoeLogo from "../../Assets/images/talmoelogo.png"
 
 
@@ -27,13 +28,7 @@ const NavLinks = styled.nav`
   color: white;
 `;
 
-const HomeLink = styled.div`
-`;
-
-const PricingLink = styled.div`
-`;
-
-const AboutLink = styled.div`
+const NavLink = styled.div`
 `;
 
 const FAQLink = styled.div`
@@ -51,18 +46,29 @@ function Header() {
             <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
         </LogoSection>
         <NavLinks>
-            <HomeLink>
-                Home
-            </HomeLink>
-            <PricingLink>
-                Price
-            </PricingLink>
-            <AboutLink>
-                About
-            </AboutLink>
+            <Link to={""}>
+                <NavLink>
+                    Home
+                </NavLink>
+            </Link>
+
+            <Link to={""}>
+                <NavLink>
+                    Price
+                </NavLink>
+            </Link>
+
+            <Link to={""}>
+                <NavLink>
+                    About
+                </NavLink>
+            </Link>
         </NavLinks>
+
         <FAQLink>
-            FAQ
+            <Link to={"/faq"}>
+                FAQ
+            </Link>
         </FAQLink>
     </HeaderContainer>
 }
