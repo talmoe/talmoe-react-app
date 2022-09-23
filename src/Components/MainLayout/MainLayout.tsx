@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import reactLogo from '../../Assets/images/logo.svg'
-import { Link } from "react-router-dom";
-import { CopyRight } from "../../Containers/HomePage/Home";
-import { Footer, Header, P2 } from "../../Styles/Common/CommonStyles";
+import {Link} from "react-router-dom";
+import {Footer, Header, P2} from "../../Styles/Common/CommonStyles";
 
 
 export const OuterContainer = styled.div`
@@ -20,7 +19,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #1D1B26;
   margin-bottom: 5vh;
 `;
 
