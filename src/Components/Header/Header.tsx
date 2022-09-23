@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import talmoeLogo from "../../Assets/images/talmoelogo.png"
-import Faq from "../../Containers/FAQ/Faq";
 
 
 const HeaderContainer = styled.header`
   display: flex;
-  //justify-content: space-between;
   align-items: center;
+  font-size: 20px;
   padding: 0 4rem;
   width: 100%;
 `;
