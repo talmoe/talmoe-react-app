@@ -8,6 +8,7 @@ const HeaderContainer = styled.header`
   font-size: 20px;
   padding: 0 4rem;
   width: 100%;
+  background-color: #1D1B26;
 `;
 
 const LogoSection = styled.div`
