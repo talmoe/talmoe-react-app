@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
@@ -31,7 +32,7 @@ const FooterLinks = styled.div`
 `;
 
 const FooterLink = styled.div`
-    font-size: 18px;
+  font-size: 18px;
 `;
 
 
@@ -43,15 +44,24 @@ function Footer() {
                     TALMOE © 2022
                 </TalmoeCopyright>
                 <FooterLinks>
-                    <FooterLink>
-                        Terms of Service
-                    </FooterLink>
-                    <FooterLink>
-                        Privacy Policy
-                    </FooterLink>
-                    <FooterLink>
-                        Contacts Us
-                    </FooterLink>
+                    <Link to={"/termsofservice"}>
+                        <FooterLink>
+                            Terms of Service
+                        </FooterLink>
+                    </Link>
+
+                    <Link to={"/privacypolicy"}>
+                        <FooterLink>
+                            Privacy Policy
+                        </FooterLink>
+
+                    </Link>
+
+                    <Link to={"/contact"}>
+                        <FooterLink>
+                            Contacts Us
+                        </FooterLink>
+                    </Link>
                 </FooterLinks>
             </FooterItems>
         </FooterContainer>

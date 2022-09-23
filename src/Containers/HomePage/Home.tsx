@@ -32,7 +32,6 @@ function Home() {
             <Header/>
             <Footer/>
         </OuterContainer>
-
     );
 }
 
