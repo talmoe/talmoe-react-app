@@ -41,7 +41,7 @@ const FAQLink = styled.div`
   flex-flow: row-reverse;
   width: 100%;
   padding: 1rem;
-  
+
   color: white;
 `;
 
