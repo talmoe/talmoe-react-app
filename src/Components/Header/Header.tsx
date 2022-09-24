@@ -14,6 +14,7 @@ const HeaderContainer = styled.header`
 
 const LogoSection = styled.div`
   width: 25rem;
+  margin-top: 5px;
 `;
 
 const TalmoeLogo = styled.img`
