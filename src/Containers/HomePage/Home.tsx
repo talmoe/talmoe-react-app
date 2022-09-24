@@ -3,6 +3,7 @@ import '../../App.css';
 import styled from "styled-components";
 import Header from "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
+import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 
 
 export const CopyRight = styled.p`
@@ -30,6 +31,7 @@ function Home() {
     return (
         <OuterContainer>
             <Header/>
+            <ImageSlider/>
             <Footer/>
         </OuterContainer>
     );
