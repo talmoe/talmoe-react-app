@@ -13,7 +13,7 @@ const HeaderContainer = styled.header`
 `;
 
 const LogoSection = styled.div`
-  width: 25rem;
+  width: 62rem;
   margin-top: 5px;
 `;
 
@@ -24,7 +24,7 @@ const TalmoeLogo = styled.img`
 const NavLinks = styled.nav`
   display: flex;
   justify-content: space-between;
-  width: 20rem;
+  width: 35rem;
   align-items: center;
   color: white;
 `;

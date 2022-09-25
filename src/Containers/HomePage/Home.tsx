@@ -26,12 +26,19 @@ const OuterContainer = styled.div`
   justify-content: space-between;
 `;
 
+const MainSection = styled.div`
+  display: flex;
+  width: 50%;
+`;
+
 
 function Home() {
     return (
         <OuterContainer>
             <Header/>
-            <ImageSlider/>
+            <MainSection>
+                <ImageSlider/>
+            </MainSection>
             <Footer/>
         </OuterContainer>
     );
