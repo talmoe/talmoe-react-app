@@ -36,7 +36,7 @@ const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
   margin-right: 7.5rem;
-  width: 50%;
+  width: 40%;
 `;
 
 const RightSection = styled.div`
