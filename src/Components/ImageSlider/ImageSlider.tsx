@@ -8,7 +8,7 @@ import videoStream from "../../Assets/images/appImages/VideoStream.png"
 
 const ImageSliderContainer = styled.div`
   width: 375px;
-  height: 812px; 
+  height: 812px;
   left: 200px;
   border-radius: 22px;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
@@ -16,17 +16,19 @@ const ImageSliderContainer = styled.div`
 `;
 
 const images = [
-   videoStream,
+    videoStream,
     followingFeed,
     newFeed,
     profileView,
 ];
+
 
 function ImageSlider() {
     return <ImageSliderContainer>
         <SimpleImageSlider
             width={375}
             height={812}
+            style={{borderRadius: 22}}
             images={images}
             showBullets={false}
             showNavs={false}
