@@ -30,12 +30,12 @@ type Props = {
     children: JSX.Element | JSX.Element[],
 };
 
-const MainLayout = ({ children }: Props) => {
+const MainLayout = ({children}: Props) => {
     return (
         <OuterContainer>
             <Container>
-                <Link style={{ textDecoration: "none" }} to="/">
-                    <img src={reactLogo} alt={"Firm logo"} height={70} width={70} />
+                <Link style={{textDecoration: "none"}} to="/">
+                    <img src={reactLogo} alt={"Firm logo"} height={70} width={70}/>
                 </Link>
                 <Header>Talmoe</Header>
                 {children}
