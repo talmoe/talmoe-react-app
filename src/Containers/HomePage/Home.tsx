@@ -66,23 +66,11 @@ const Slogan = styled.div`
 const DownloadButtons = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 30%;
+  justify-content: space-between;
+  width: 600px;
+  height: 100px;
 `;
 
-const DownloadGoogle = styled.div`
-  background-image: url(${DownloadButtonGoogle});
-  width: 295px;
-  height: 82px;
-`;
-
-const DownloadIOS = styled.div`
-  background-image: url(${DownloadButtonIOS});
-  width: 252px;
-  height: 81px;
-`;
 
 function Home() {
     return (
@@ -99,8 +87,8 @@ function Home() {
                         spotlight
                     </Slogan>
                     <DownloadButtons>
-                        <DownloadGoogle/>
-                        <DownloadIOS/>
+                        <img src={DownloadButtonIOS} width={290} height={95}/>
+                        <img src={DownloadButtonGoogle} width={290} height={95}/>
                     </DownloadButtons>
                 </RightSection>
             </MainSection>
