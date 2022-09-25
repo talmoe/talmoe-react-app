@@ -2,7 +2,8 @@ import React from 'react';
 import styled from "styled-components";
 import reactLogo from '../../Assets/images/logo.svg'
 import {Link} from "react-router-dom";
-import {Footer, Header, P2} from "../../Styles/Common/CommonStyles";
+import {Header, P2} from "../../Styles/Common/CommonStyles";
+import Footer from "../Footer/Footer";
 
 
 export const OuterContainer = styled.div`
@@ -13,6 +14,7 @@ export const OuterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `;
 export const Container = styled.div`
   display: flex;
@@ -20,6 +22,7 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   margin-bottom: 5vh;
+  height: 100%;
 `;
 
 
@@ -37,10 +40,7 @@ const MainLayout = ({ children }: Props) => {
                 <Header>Talmoe</Header>
                 {children}
             </Container>
-            <Footer>
-                <P2>TALMOE &copy; 2022</P2>
-                <P2>Based in Vanylven, Norway</P2>
-            </Footer>
+            <Footer/>
         </OuterContainer>
     );
 }
