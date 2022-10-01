@@ -59,20 +59,3 @@ export const PrivacyPolicyAndTermsOfServiceInnerDiv = styled.div`
 export const LinkOrange = styled.a`
   color: #FFC17D;
 `;
-
-
-
-
-
-export const Footer = styled.footer`
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  position: absolute;
-  bottom: 0;
-  height: 54px;
-  background-color: #28283A;
-  align-items: center;
-  justify-content: center;
-
-`
