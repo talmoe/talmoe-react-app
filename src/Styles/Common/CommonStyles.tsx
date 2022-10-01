@@ -49,7 +49,9 @@ export const ParagraphWhite = styled.p`
   padding-bottom: 10px;
 `;
 export const PrivacyPolicyAndTermsOfServiceOuterDiv = styled.div`
-  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 `;
 export const PrivacyPolicyAndTermsOfServiceInnerDiv = styled.div`

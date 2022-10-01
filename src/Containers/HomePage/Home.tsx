@@ -9,18 +9,6 @@ import DownloadButtonGoogle from "../../Assets/images/Download - Google play.png
 import DownloadButtonIOS from "../../Assets/images/Download - iOS.png"
 
 
-export const CopyRight = styled.p`
-  color: #fff;
-  margin: 0;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-
-  :after {
-    content: "\\00a9  2021";
-  }
-`;
-
-
 const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
