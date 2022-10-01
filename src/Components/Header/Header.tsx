@@ -59,7 +59,7 @@ function Header() {
                 </NavLink>
             </Link>
 
-            <Link to={""}>
+            <Link to={"/about"}>
                 <NavLink>
                     About
                 </NavLink>
