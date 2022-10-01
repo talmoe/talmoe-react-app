@@ -37,7 +37,7 @@ const H1 = styled.h1`
 `;
 
 
-const P1 = styled.p`
+const P = styled.p`
   color: white;
 `;
 
@@ -52,7 +52,7 @@ function About() {
                 </LeftSection>
                 <RightSection>
                     <H1> From talent to spotlight</H1>
-                    <P1> Do you dream of a musical career?<br/><br/>
+                    <P> Do you dream of a musical career?<br/><br/>
 
                         Maybe you have a passion for music? Or a company looking for new talents to work with?<br/><br/>
 
@@ -72,7 +72,7 @@ function About() {
 
                         START TODAY WITH TALMOE - Download the Talmoe app for free, build your fan base, interact with
                         others, upload your music, get feedback, meet new people and build your network today.<br/><br/>
-                    </P1>
+                    </P>
 
                 </RightSection>
 
