@@ -2,14 +2,13 @@ import React from 'react';
 import styled from "styled-components";
 import reactLogo from '../../Assets/images/logo.svg'
 import {Link} from "react-router-dom";
-import {Header, P2} from "../../Styles/Common/CommonStyles";
+import {Heading} from "../../Styles/Common/CommonStyles";
 import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
 
 export const OuterContainer = styled.div`
   height: 100vh;
-  padding-left: 16px;
-  padding-right: 16px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -33,11 +32,12 @@ type Props = {
 const MainLayout = ({children}: Props) => {
     return (
         <OuterContainer>
+            <Header/>
             <Container>
                 <Link style={{textDecoration: "none"}} to="/">
                     <img src={reactLogo} alt={"Firm logo"} height={70} width={70}/>
                 </Link>
-                <Header>Talmoe</Header>
+                <Heading>Talmoe</Heading>
                 {children}
             </Container>
             <Footer/>
