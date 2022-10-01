@@ -13,7 +13,7 @@ const HeaderContainer = styled.header`
 `;
 
 const LogoSection = styled.div`
-  width: 25rem;
+  width: 43rem;
   margin-top: 5px;
 `;
 
