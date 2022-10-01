@@ -7,8 +7,8 @@ import videoStream from "../../Assets/images/appImages/VideoStream.png"
 
 
 const ImageSliderContainer = styled.div`
-  width: 375px;
-  height: 812px;
+  width: 350px;
+  height: 762px;
   left: 200px;
   border-radius: 22px;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
@@ -26,8 +26,8 @@ const images = [
 function ImageSlider() {
     return <ImageSliderContainer>
         <SimpleImageSlider
-            width={375}
-            height={812}
+            width={350}
+            height={762}
             style={{borderRadius: 22}}
             images={images}
             showBullets={false}

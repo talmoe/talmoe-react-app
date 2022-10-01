@@ -9,7 +9,6 @@ import Header from "../Header/Header";
 
 export const OuterContainer = styled.div`
   height: 100vh;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
