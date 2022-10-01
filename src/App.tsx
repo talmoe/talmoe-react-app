@@ -15,8 +15,8 @@ function App() {
 
     return (
         <div className={"Talmoe-app"}>
+            <GlobalStyle/>
             <Route exact path="/">
-                <GlobalStyle/>
                 <Home/>
             </Route>
             <Route exact path={"/contact"}>
