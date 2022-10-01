@@ -55,7 +55,7 @@ function Header() {
 
             <Link to={""}>
                 <NavLink>
-                    Price
+                    Pricing
                 </NavLink>
             </Link>
 
