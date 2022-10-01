@@ -1,10 +1,13 @@
 import React from 'react';
 import Footer from '../../Components/Footer/Footer';
 import { P1, HeadingBald, SubHeadingBald, ParagraphWhite, PrivacyPolicyAndTermsOfServiceOuterDiv, PrivacyPolicyAndTermsOfServiceInnerDiv, LinkOrange } from "../../Styles/Common/CommonStyles";
+import Header from "../../Components/Header/Header";
+require("../../Styles/Global/GlobalStyles");
 
 function Privacypolicy() {
     return (
         <PrivacyPolicyAndTermsOfServiceOuterDiv>
+            <Header/>
             <PrivacyPolicyAndTermsOfServiceInnerDiv>
                 <P1>Privacy Policy for Talmoe</P1>
                 <ParagraphWhite>This statement describes how and what personal data we collect and process about you when you are using the application Talmoe. It further describes your rights as a data subject under the General Data Protection Regulation (the “GDPR”)<br></br><br></br>All references to “we” and “us” refer to the Norwegian company Talmoe AS. If you have any further questions after reading this statement, do not hesitate to contact us on support@talmoe.com. </ParagraphWhite>
@@ -92,6 +95,7 @@ function Privacypolicy() {
                     If you have any concerns about how we process your personal data, you are welcome to file a complaint to the Norwegian Data Protection Authority (Datatilsynet): <LinkOrange href="https://www.datatilsynet.no/en/about-us/contact-us/how-to-complain-to-the-norwegian-dpa/">https://www.datatilsynet.no/en/about-us/contact-us/how-to-complain-to-the-norwegian-dpa/</LinkOrange> or relevant data protection authority in your country.
                 </ParagraphWhite>
             </PrivacyPolicyAndTermsOfServiceInnerDiv>
+            <Footer/>
         </PrivacyPolicyAndTermsOfServiceOuterDiv>
 
     )
