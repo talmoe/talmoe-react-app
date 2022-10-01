@@ -9,6 +9,7 @@ import Privacypolicy from './Containers/PrivacyPolicy/Privacypolicy';
 import Faq from './Containers/FAQ/Faq';
 import Usermanual from './Containers/UserManual/Usermanual';
 import GlobalStyle from "./Styles/Global/GlobalStyles";
+import Pricing from "./Containers/PricingPage/Pricing";
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route exact path={"/usermanual"}>
                 <Usermanual/>
+            </Route>
+            <Route exact path={"/pricing"}>
+                <Pricing/>
             </Route>
         </div>
     );
