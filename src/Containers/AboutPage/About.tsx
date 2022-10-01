@@ -39,6 +39,7 @@ const H1 = styled.h1`
 
 const P = styled.p`
   color: white;
+  font-size: 20px;
 `;
 
 function About() {
