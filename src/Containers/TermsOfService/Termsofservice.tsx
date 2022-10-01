@@ -1,11 +1,14 @@
 import React from 'react';
 import { P1, SubHeadingBald, ParagraphWhite, PrivacyPolicyAndTermsOfServiceOuterDiv, PrivacyPolicyAndTermsOfServiceInnerDiv, LinkOrange } from "../../Styles/Common/CommonStyles";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 
 
 
 function Termsofservice() {
     return (
         <PrivacyPolicyAndTermsOfServiceOuterDiv>
+            <Header/>
             <PrivacyPolicyAndTermsOfServiceInnerDiv>
                 <P1>Terms of Service for Talmoe</P1>
                 <ParagraphWhite>
@@ -150,6 +153,7 @@ function Termsofservice() {
                     E-mail: support@talmoe.com.
                 </ParagraphWhite>
             </PrivacyPolicyAndTermsOfServiceInnerDiv>
+            <Footer/>
         </PrivacyPolicyAndTermsOfServiceOuterDiv>
     )
 }
