@@ -1,5 +1,4 @@
 import React from 'react';
-import MainLayout from "../../Components/MainLayout/MainLayout";
 import { P1, SubHeadingBald, ParagraphWhite, PrivacyPolicyAndTermsOfServiceOuterDiv, PrivacyPolicyAndTermsOfServiceInnerDiv, LinkOrange } from "../../Styles/Common/CommonStyles";
 
 

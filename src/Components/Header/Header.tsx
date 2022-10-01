@@ -47,7 +47,7 @@ function Header() {
             <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
         </LogoSection>
         <NavLinks>
-            <Link to={""}>
+            <Link to={"/"}>
                 <NavLink>
                     Home
                 </NavLink>
