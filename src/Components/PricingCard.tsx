@@ -22,8 +22,16 @@ const CardPrice = styled.p`
   color: #A9A9AA;
 `;
 
-const CardInfoList = styled.div`
+const CardInfoList = styled.ul`
+  height: 35vh;
+  font-size: 20px;
+  color: white;
 `;
+
+const Li = styled.li`
+    margin: 0.5rem;
+`;
+
 
 const CardButton = styled.button`
   height: 3rem;
@@ -35,22 +43,18 @@ const CardButton = styled.button`
   font-weight: 600;
   font-size: 20px;
   line-height: 40px;
-  /* identical to box height, or 182% */
-
   text-align: center;
-
-  color: #000000;
 
 `;
 
 
-interface temp {
+interface cardProps {
     title: string;
     price: string;
 }
 
 
-function PricingCard(props: temp) {
+function PricingCard(props: cardProps) {
 
     return (
         <PricingCardContainer>
@@ -61,7 +65,10 @@ function PricingCard(props: temp) {
                 {props.price}
             </CardPrice>
             <CardInfoList>
-
+                <Li>Lorem</Li>
+                <Li>Ipsum</Li>
+                <Li>Dolor sit amet</Li>
+                <Li>consectetur adipiscing elit</Li>
             </CardInfoList>
             <CardButton>
                 Choose
