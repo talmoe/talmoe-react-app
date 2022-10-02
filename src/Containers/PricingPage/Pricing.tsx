@@ -14,13 +14,15 @@ const MainSection = styled.div`
 `;
 
 function Pricing() {
-    return <OuterContainer>
-        <Header/>
-        <MainSection>
-            <PricingCard/>
-        </MainSection>
-        <Footer/>
-    </OuterContainer>
+    return (
+        <OuterContainer>
+            <Header/>
+            <MainSection>
+                <PricingCard title={"Abonnement1"} price={"Kr 75,00 / month"}/>
+            </MainSection>
+            <Footer/>
+        </OuterContainer>
+    );
 }
 
 export default Pricing;
