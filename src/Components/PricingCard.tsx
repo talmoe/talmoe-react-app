@@ -15,6 +15,7 @@ const PricingCardContainer = styled.div`
 const CardTitle = styled.h1`
   align-self: center;
   color: white;
+  text-shadow: 5px 5px 5px black;
 `;
 
 const CardPrice = styled.p`
@@ -45,7 +46,6 @@ const CardButton = styled.button`
   text-align: center;
   
   cursor: pointer;
-  }
 `;
 
 

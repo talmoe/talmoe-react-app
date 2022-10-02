@@ -39,7 +39,7 @@ const RightSection = styled.div`
 const Logo = styled.div`
   background-image: url(${Completelogo});
   width: 507px;
-  height: 189px;
+  height: 203px;
 `;
 
 const Slogan = styled.div`
