@@ -11,6 +11,8 @@ const MainSection = styled.div`
   display: flex;
   height: 100vh;
   width: 100%;
+  justify-content: center;
+  margin-top: 5rem;
 `;
 
 function Pricing() {
@@ -19,6 +21,8 @@ function Pricing() {
             <Header/>
             <MainSection>
                 <PricingCard title={"Abonnement1"} price={"Kr 75,00 / month"}/>
+                <PricingCard title={"Abonnement2"} price={"Kr 100,00 / month"}/>
+                <PricingCard title={"Abonnement3"} price={"Kr 125,00 / month"}/>
             </MainSection>
             <Footer/>
         </OuterContainer>

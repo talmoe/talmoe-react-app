@@ -42,9 +42,10 @@ const CardButton = styled.button`
 
   font-weight: 600;
   font-size: 20px;
-  line-height: 40px;
   text-align: center;
-
+  
+  cursor: pointer;
+  }
 `;
 
 
