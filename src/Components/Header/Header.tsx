@@ -43,7 +43,9 @@ const FAQLink = styled.div`
 function Header() {
     return <HeaderContainer>
         <LogoSection>
-            <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
+            <Link to={"/"}>
+                <TalmoeLogo src={talmoeLogo} alt={'Talmoe logo'}/>
+            </Link>
         </LogoSection>
         <NavLinks>
             <Link to={"/"}>
