@@ -10,6 +10,9 @@ const HeaderContainer = styled.header`
   padding: 0 4rem;
   width: 100%;
   background-color: #1D1B26;
+  @media (max-width: 25em) {
+    padding: 0 1.6rem;
+  }
 `;
 
 const LogoSection = styled.div`
@@ -30,6 +33,8 @@ const NavLinks = styled.nav`
 `;
 
 const NavLink = styled.div`
+  @media (max-width: 57em) {
+    min-width: 5rem;
 `;
 
 const FAQLink = styled.div`
@@ -38,6 +43,9 @@ const FAQLink = styled.div`
   width: 100%;
   padding: 1rem;
   color: white;
+  @media (max-width: 57em) {
+    flex-flow: row;
+    padding: 0;
 `;
 
 function Header() {
