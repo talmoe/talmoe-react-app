@@ -3,16 +3,36 @@ import '../../App.css';
 import styled from "styled-components";
 import Header from "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
-import {OuterContainer} from "../../Components/MainLayout/MainLayout";
 import PricingCard from "../../Components/PricingCard";
+import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 
+
+
+const OuterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 const MainSection = styled.div`
   display: flex;
-  height: 100vh;
   width: 100%;
+`;
+
+const LeftSection = styled.div`
+  display: flex;
+  flex-flow: row-reverse;
+  margin-right: 7.5rem;
+  width: 40%;
+`;
+
+const RightSection = styled.div`
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 5rem;
+  width: 60%;
+  font-size: 22px;
+  color: white;
 `;
 
 function Pricing() {
@@ -20,9 +40,12 @@ function Pricing() {
         <OuterContainer>
             <Header/>
             <MainSection>
-                <PricingCard title={"Abonnement1"} price={"Kr 75,00 / month"}/>
-                <PricingCard title={"Abonnement2"} price={"Kr 100,00 / month"}/>
-                <PricingCard title={"Abonnement3"} price={"Kr 125,00 / month"}/>
+                <LeftSection>
+                    <ImageSlider/>
+                </LeftSection>
+                <RightSection>
+                    <PricingCard title={"Subscription for talents"} price={"Kr 49,00 / month"}/>
+                </RightSection>
             </MainSection>
             <Footer/>
         </OuterContainer>

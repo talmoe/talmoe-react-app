@@ -15,6 +15,7 @@ const PricingCardContainer = styled.div`
 const CardTitle = styled.h1`
   align-self: center;
   color: white;
+  text-align: center;
 `;
 
 const CardPrice = styled.p`
@@ -39,6 +40,8 @@ const CardButton = styled.button`
   align-self: center;
   background: white;
   border-radius: 12px;
+  margin: 1rem;
+  height: 5rem;
 
   font-weight: 600;
   font-size: 20px;
