@@ -10,6 +10,7 @@ import Faq from './Containers/FAQ/Faq';
 import Usermanual from './Containers/UserManual/Usermanual';
 import GlobalStyle from "./Styles/Global/GlobalStyles";
 import Pricing from "./Containers/PricingPage/Pricing";
+import Team from "./Containers/teamPage/Team";
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route exact path={"/pricing"}>
                 <Pricing/>
+            </Route>
+            <Route exact path={"/team"}>
+                <Team/>
             </Route>
         </div>
     );

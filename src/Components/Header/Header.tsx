@@ -74,7 +74,7 @@ function Header() {
                 </NavLink>
             </Link>
 
-            <Link to={""}>
+            <Link to={"/team"}>
                 <NavLink>
                     Our team
                 </NavLink>
