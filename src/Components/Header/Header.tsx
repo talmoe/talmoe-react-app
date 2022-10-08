@@ -27,7 +27,7 @@ const TalmoeLogo = styled.img`
 const NavLinks = styled.nav`
   display: flex;
   justify-content: space-between;
-  width: 35rem;
+  width: 40rem;
   align-items: center;
   color: white;
 `;
@@ -71,6 +71,12 @@ function Header() {
             <Link to={"/about"}>
                 <NavLink>
                     About
+                </NavLink>
+            </Link>
+
+            <Link to={""}>
+                <NavLink>
+                    Our team
                 </NavLink>
             </Link>
         </NavLinks>
