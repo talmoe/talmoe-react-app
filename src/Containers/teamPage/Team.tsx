@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Header from "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
 import TeamMemberBox from "../../Components/TeamMemberBox/TeamMemberBox";
+import testportrait from "../../Assets/images/portraits/portrait.jpg"
 
 const OuterContainer = styled.div`
   display: flex;
@@ -22,7 +23,7 @@ function Team() {
         <OuterContainer>
             <Header/>
             <MainSection>
-                <TeamMemberBox/>
+                <TeamMemberBox image={testportrait}/>
             </MainSection>
             <Footer/>
         </OuterContainer>

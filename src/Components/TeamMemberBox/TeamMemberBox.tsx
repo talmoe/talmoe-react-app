@@ -9,10 +9,28 @@ const TeamMemberBoxContainer = styled.div`
   background: #1D1B26;
 `;
 
-function TeamMemberBox() {
-    return(
-        <TeamMemberBoxContainer>
+const ImageSection = styled.div`
+  height: 70%;
+  width: 100%;
+`;
 
+const DescriptionSection = styled.div`
+`;
+
+interface boxProps {
+    image: string;
+}
+
+function TeamMemberBox(props: boxProps) {
+    return (
+        <TeamMemberBoxContainer>
+            <ImageSection>
+                {props.image}
+            </ImageSection>
+
+            <DescriptionSection>
+                Jobbtittel her
+            </DescriptionSection>
         </TeamMemberBoxContainer>
     );
 }
