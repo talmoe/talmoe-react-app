@@ -28,9 +28,9 @@ const LeftSection = styled.div`
 
 const RightSection = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
+  //justify-content: center;
+  align-items: center;
+  width: 50%;
   font-size: 22px;
   color: white;
 `;
