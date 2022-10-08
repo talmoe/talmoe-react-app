@@ -11,7 +11,7 @@ const MainSection = styled.div`
 `;
 
 
-function team() {
+function Team() {
     return (
         <OuterContainer>
             <Header/>
@@ -23,4 +23,4 @@ function team() {
     );
 }
 
-export default team;
+export default Team;
