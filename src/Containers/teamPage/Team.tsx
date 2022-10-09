@@ -9,7 +9,9 @@ import testportrait from "../../Assets/images/portraits/portrait.jpg"
 const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
 `;
 
 const MainSection = styled.div`
