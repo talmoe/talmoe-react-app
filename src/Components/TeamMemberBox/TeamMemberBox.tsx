@@ -4,9 +4,8 @@ const TeamMemberBoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 2rem;
-  width: 20rem;
+  width: 18rem;
   height: 25rem;
-  background: #1D1B26;
 `;
 
 const ImageSection = styled.img`
@@ -20,10 +19,12 @@ const DescriptionSection = styled.div`
 `;
 
 const Name = styled.h1`
+  margin: 0;;
 `;
 
 const JobTitle = styled.p`
   font-size: 20px;
+  margin: 0;
 `;
 
 interface boxProps {
