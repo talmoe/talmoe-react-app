@@ -10,11 +10,14 @@ const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 `;
 
 const MainSection = styled.div`
   display: flex;
   width: 100%;
+  height: 100%;
+  justify-content: center;
 `;
 
 
@@ -23,6 +26,14 @@ function Team() {
         <OuterContainer>
             <Header/>
             <MainSection>
+                <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
+                               jobTitle={"Software developer"} name={"Michal Berg"}/>
+                <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
+                               jobTitle={"Software developer"} name={"Michal Berg"}/>
+                <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
+                               jobTitle={"Software developer"} name={"Michal Berg"}/>
+                <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
+                               jobTitle={"Software developer"} name={"Michal Berg"}/>
                 <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
                                jobTitle={"Software developer"} name={"Michal Berg"}/>
             </MainSection>
