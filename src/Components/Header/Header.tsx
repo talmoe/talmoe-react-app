@@ -33,7 +33,7 @@ const NavLinks = styled.nav`
 `;
 
 const NavLink = styled.div`
-  @media (max-width: 57em) {
+  @media (max-width: 76em) {
     min-width: 5rem;
 `;
 
