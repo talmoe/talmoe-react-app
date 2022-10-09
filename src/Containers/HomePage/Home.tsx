@@ -18,6 +18,11 @@ const OuterContainer = styled.div`
 const MainSection = styled.div`
   display: flex;
   width: 100%;
+  @media (max-width: 50em) {
+    flex-direction: column-reverse;
+    margin: 3rem;
+    align-items: center;
+  }
 `;
 
 const LeftSection = styled.div`
@@ -25,6 +30,10 @@ const LeftSection = styled.div`
   flex-flow: row-reverse;
   margin-right: 7.5rem;
   width: 40%;
+  @media (max-width: 76em) {
+    flex-flow: row;
+    margin: 0;
+  }
 `;
 
 const RightSection = styled.div`
@@ -36,10 +45,9 @@ const RightSection = styled.div`
   color: white;
 `;
 
-const Logo = styled.div`
-  background-image: url(${Completelogo});
-  width: 507px;
-  height: 203px;
+const Logo = styled.img`
+  width: 31rem;
+  height: 12rem;
 `;
 
 const Slogan = styled.div`
@@ -55,8 +63,30 @@ const DownloadButtons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 600px;
+  width: 35rem;
   height: 100px;
+  @media (max-width: 65em) {
+    width: 31rem;
+    justify-content: center;
+  }
+`;
+
+const IOSButton = styled.img`
+  height: 95px;
+  width: 290px;
+  @media (max-width: 65em) {
+    height: 5rem;
+    width: 15rem;
+  }
+`;
+
+const GoogleButton = styled.img`
+  height: 95px;
+  width: 290px;
+  @media (max-width: 65em) {
+    height: 5rem;
+    width: 15rem;
+  }
 `;
 
 
@@ -69,14 +99,14 @@ function Home() {
                     <ImageSlider/>
                 </LeftSection>
                 <RightSection>
-                    <Logo/>
+                    <Logo src={Completelogo}/>
                     <Slogan>
                         From talent to<br/>
                         spotlight
                     </Slogan>
                     <DownloadButtons>
-                        <img src={DownloadButtonIOS} width={290} height={95}/>
-                        <img src={DownloadButtonGoogle} width={290} height={95}/>
+                        <IOSButton src={DownloadButtonIOS}/>
+                        <GoogleButton src={DownloadButtonGoogle}/>
                     </DownloadButtons>
                 </RightSection>
             </MainSection>
