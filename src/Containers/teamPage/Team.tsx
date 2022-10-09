@@ -23,7 +23,8 @@ function Team() {
         <OuterContainer>
             <Header/>
             <MainSection>
-                <TeamMemberBox image={testportrait}/>
+                <TeamMemberBox image={testportrait} altText={"Portrait of software developer Michal Berg"}
+                               jobTitle={"Software developer"} name={"Michal Berg"}/>
             </MainSection>
             <Footer/>
         </OuterContainer>

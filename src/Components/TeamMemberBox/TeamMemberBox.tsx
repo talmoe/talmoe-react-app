@@ -9,27 +9,42 @@ const TeamMemberBoxContainer = styled.div`
   background: #1D1B26;
 `;
 
-const ImageSection = styled.div`
+const ImageSection = styled.img`
   height: 70%;
   width: 100%;
 `;
 
 const DescriptionSection = styled.div`
+  color: white;
+  text-align: center;
+`;
+
+const Name = styled.h1`
+`;
+
+const JobTitle = styled.p`
+  font-size: 20px;
 `;
 
 interface boxProps {
     image: string;
+    altText: string;
+    name: string;
+    jobTitle: string;
 }
+
 
 function TeamMemberBox(props: boxProps) {
     return (
         <TeamMemberBoxContainer>
-            <ImageSection>
-                {props.image}
-            </ImageSection>
-
+            <ImageSection src={props.image} alt={props.altText}/>
             <DescriptionSection>
-                Jobbtittel her
+                <Name>
+                    {props.name}
+                </Name>
+                <JobTitle>
+                    {props.jobTitle}
+                </JobTitle>
             </DescriptionSection>
         </TeamMemberBoxContainer>
     );
