@@ -45,6 +45,11 @@ function App() {
             <Route exact path={"/team"}>
                 <Team/>
             </Route>
+
+            <Route path='/googleDownloadButton' component={() => {
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.talmoe.app&gl=NO';
+                return null;
+            }}/>
         </div>
     );
 }

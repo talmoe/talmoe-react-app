@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Header from "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
+import {Link} from "react-router-dom";
 import Completelogo from "../../Assets/images/CompleteLogo.png";
 import DownloadButtonGoogle from "../../Assets/images/Download - Google play.png";
 import DownloadButtonIOS from "../../Assets/images/Download - iOS.png"
@@ -125,8 +126,12 @@ function Home() {
                         spotlight
                     </Slogan>
                     <DownloadButtons>
-                        <IOSButton src={DownloadButtonIOS}/>
-                        <GoogleButton src={DownloadButtonGoogle}/>
+                        <Link to={''}>
+                            <IOSButton src={DownloadButtonIOS}/>
+                        </Link>
+                        <Link to={'googleDownloadButton'}>
+                            <GoogleButton src={DownloadButtonGoogle}/>
+                        </Link>
                     </DownloadButtons>
                 </RightSection>
             </MainSection>
