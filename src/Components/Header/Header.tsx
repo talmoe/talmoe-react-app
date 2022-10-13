@@ -27,7 +27,7 @@ const TalmoeLogo = styled.img`
 const NavLinks = styled.nav`
   display: flex;
   justify-content: space-between;
-  width: 40rem;
+  width: 50rem;
   align-items: center;
   color: white;
 `;
