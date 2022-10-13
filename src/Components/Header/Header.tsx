@@ -41,7 +41,7 @@ const FAQLink = styled.div`
   display: flex;
   flex-flow: row-reverse;
   width: 100%;
-  padding: 1rem;
+  padding-right: 1.5rem;
   color: white;
   @media (max-width: 57em) {
     flex-flow: row;
