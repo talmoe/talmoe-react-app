@@ -33,10 +33,11 @@ const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
   margin-right: 7.5rem;
-  width: 40%;
+  width: 51rem;
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;
+    width: 40%;
   }
   @media (max-width: 61em) {
     justify-content: center;
