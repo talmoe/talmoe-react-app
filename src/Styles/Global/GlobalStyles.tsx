@@ -1,9 +1,9 @@
 import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  //html {
-  //  margin: 2rem;
-  //}
+  html {
+    
+  }
 
   // removes default styling from link tags
   a:-webkit-any-link {
@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background: linear-gradient(180deg, #28283A -2.04%, rgba(32, 27, 33, 0.9) 102.12%, rgba(40, 40, 58, 0) 102.13%);
-    overflow-x: hidden;
+    //overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 `;
 
