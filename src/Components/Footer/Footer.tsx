@@ -29,10 +29,17 @@ const FooterLinks = styled.div`
   justify-content: space-evenly;
   width: 50rem;
   padding: 5px;
+  @media(max-width: 40em) {
+    width: 35rem;
+  }
+  @media(max-width: 27em) {
+    width: 20rem;
+  }
 `;
 
 const FooterLink = styled.div`
   font-size: 18px;
+  text-align: center;
 `;
 
 

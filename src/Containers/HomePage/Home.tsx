@@ -18,10 +18,14 @@ const OuterContainer = styled.div`
 const MainSection = styled.div`
   display: flex;
   width: 100%;
-  @media (max-width: 50em) {
+  @media (max-width: 61em) {
     flex-direction: column-reverse;
     margin: 3rem;
     align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 25em) {
+    margin: 1rem;
   }
 `;
 
@@ -32,7 +36,11 @@ const LeftSection = styled.div`
   width: 40%;
   @media (max-width: 76em) {
     flex-flow: row;
-    margin: 0;
+    margin: auto;
+  }
+  @media (max-width: 61em) {
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -40,14 +48,25 @@ const RightSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  //align-items: center;
   width: 50%;
   font-size: 22px;
   color: white;
+  @media (max-width: 61em) {
+    align-items: center;
+  }
+  @media (max-width: 25em) {
+    margin-top: 0;
+  }
 `;
 
 const Logo = styled.img`
   width: 31rem;
   height: 12rem;
+  @media (max-width: 25em) {
+    width: 23rem;
+    height: 9rem;
+  }
 `;
 
 const Slogan = styled.div`
@@ -65,7 +84,7 @@ const DownloadButtons = styled.div`
   justify-content: space-between;
   width: 35rem;
   height: 100px;
-  @media (max-width: 65em) {
+  @media (max-width: 70em) {
     width: 31rem;
     justify-content: center;
   }
