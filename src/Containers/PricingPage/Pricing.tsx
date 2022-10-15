@@ -7,7 +7,6 @@ import PricingCard from "../../Components/PricingCard";
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 
 
-
 const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -44,7 +43,7 @@ function Pricing() {
                     <ImageSlider/>
                 </LeftSection>
                 <RightSection>
-                    <PricingCard title={"Subscription for talents"} price={"Kr 49,00 / month"}/>
+                    <PricingCard title={"Talmoe Pro"} price={"Then NOK 49,00 / month"} buttonText={"Try for free"}/>
                 </RightSection>
             </MainSection>
             <Footer/>
