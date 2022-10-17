@@ -5,8 +5,8 @@ const PricingCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 2rem;
-  width: 385px;
-  height: 570px;
+  width: 24rem;
+  height: 36rem;
   background: #1D1B26;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -58,9 +58,12 @@ const CardButton = styled.button`
 `;
 
 const PaymentDisclaimerText = styled.p`
-  margin: 0.5rem;
+  margin-left: 1rem;
   color: #A9A9AA;
   font-size: 0.6rem;
+  @media (max-width: 25em) {
+    margin-top: 0;
+  }
 `;
 
 

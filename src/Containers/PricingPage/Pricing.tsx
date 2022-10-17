@@ -16,22 +16,45 @@ const OuterContainer = styled.div`
 const MainSection = styled.div`
   display: flex;
   width: 100%;
+  @media (max-width: 61em) {
+    flex-direction: column-reverse;
+    margin: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 25em) {
+    margin: 1rem;
+  }
 `;
 
 const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
   margin-right: 7.5rem;
-  width: 40%;
+  width: 45rem;
+  @media (max-width: 76em) {
+    flex-flow: row;
+    margin: auto;
+    width: 40%;
+  }
+  @media (max-width: 61em) {
+    justify-content: center;
+  }
 `;
 
 const RightSection = styled.div`
   display: flex;
-  //justify-content: center;
-  align-items: center;
   width: 50%;
   font-size: 22px;
   color: white;
+  @media (max-width: 61em) {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+  @media (max-width: 25em) {
+    margin-top: 0;
+  }
 `;
 
 function Pricing() {
