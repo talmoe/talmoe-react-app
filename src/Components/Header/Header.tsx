@@ -21,7 +21,7 @@ const LogoSection = styled.div`
 `;
 
 const TalmoeLogo = styled.img`
-  height: 50px;
+  height: 3rem;
 `;
 
 const NavLinks = styled.nav`
