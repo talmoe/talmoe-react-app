@@ -28,7 +28,7 @@ const MainSection = styled.div`
 const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
-  margin-right: 7.5rem;
+  margin-right: 6.5rem;
   width: 45rem;
   @media (max-width: 76em) {
     flex-flow: row;
