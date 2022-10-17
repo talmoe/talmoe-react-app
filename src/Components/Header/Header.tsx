@@ -10,14 +10,18 @@ const HeaderContainer = styled.header`
   padding: 0 4rem;
   width: 100%;
   background-color: #1D1B26;
-  @media (max-width: 25em) {
+  @media (max-width: 26.5em) {
     padding: 0 1.6rem;
   }
 `;
 
 const LogoSection = styled.div`
-  width: 35rem;
-  margin-top: 5px;
+  width: 30rem;
+  margin: 0.3rem 1rem 0 1rem;
+  @media (max-width: 26.5em) {
+    margin: 0.3rem 1rem 0 0;
+    width: 5rem
+  }
 `;
 
 const TalmoeLogo = styled.img`
