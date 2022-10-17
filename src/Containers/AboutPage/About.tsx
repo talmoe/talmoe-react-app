@@ -30,6 +30,9 @@ const LeftSection = styled.div`
   flex-flow: row-reverse;
   margin-right: 6.5rem;
   width: 45rem;
+  @media (max-height: 46em) {
+    width: 39rem;
+  }
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;
@@ -59,12 +62,19 @@ const RightSection = styled.div`
 
 const H1 = styled.h1`
   color: white;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
 `;
 
 
 const P = styled.p`
   color: white;
   font-size: 20px;
+  margin-top: 0;
+  @media (max-height: 46em) {
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+  }
 `;
 
 function About() {
