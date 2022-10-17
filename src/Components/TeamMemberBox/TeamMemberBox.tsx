@@ -14,12 +14,17 @@ const ImageSection = styled.img`
 `;
 
 const DescriptionSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  justify-content: space-between;
   color: white;
   text-align: center;
 `;
 
 const Name = styled.h1`
-  margin: 0;;
+  margin: 0;
+  font-size: 1.5rem;
 `;
 
 const JobTitle = styled.p`
