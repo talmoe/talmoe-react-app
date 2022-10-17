@@ -10,6 +10,7 @@ import useWindowDimensions from "../getWindowDimensions";
 const ImageSliderContainer = styled.div`
   left: 200px;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
   margin: 1rem;
 `;
 
@@ -25,8 +26,8 @@ const Component = () => {
     if (height <= 722) {
         return (
             <SimpleImageSlider
-                width={314}
-                height={680}
+                width={253}
+                height={548}
                 style={{borderRadius: 22}}
                 images={images}
                 showBullets={false}
@@ -38,7 +39,7 @@ const Component = () => {
     } else {
         return (
             <SimpleImageSlider
-                width={350}
+                width={352}
                 height={762}
                 style={{borderRadius: 22}}
                 images={images}
