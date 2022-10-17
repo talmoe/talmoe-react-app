@@ -50,6 +50,7 @@ const CardButton = styled.button`
   border-radius: 12px;
   margin: 1rem;
   height: 5rem;
+  border-style: hidden;
 
   font-weight: 600;
   font-size: 20px;
