@@ -48,8 +48,10 @@ const RightSection = styled.div`
   width: 50%;
   font-size: 22px;
   color: white;
+  //justify-content: center;
   @media (max-width: 61em) {
     width: 100%;
+    align-items: center;
     justify-content: center;
     margin-top: 0;
   }
@@ -65,6 +67,9 @@ const Slogan = styled.div`
   margin-top: 1rem;
   width: 30rem;
   color: #B2B0B4;
+  @media(max-height: 46em) {  
+    display: none;
+  }
 `;
 
 function Pricing() {

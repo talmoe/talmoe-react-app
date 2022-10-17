@@ -11,18 +11,30 @@ const PricingCardContainer = styled.div`
   background: #1D1B26;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  @media(max-height: 46em) {
+    height: 32rem;
+    width: 24rem;
+  }
 `;
 
 const CardTitle = styled.h1`
   align-self: center;
   color: white;
   text-align: center;
+  letter-spacing: 3px;
+  @media(max-height: 46em) {
+    font-size: 2rem;
+  }
+  
 `;
 
 const TrialText = styled.h2`
   margin: 0 0 0 1.5rem;
   color: #A9A9AA;
-
+  letter-spacing: 2px;
+  @media(max-height: 46em) {
+    font-size: 1.5rem;
+  }
 `;
 
 const CardPrice = styled.p`
@@ -33,13 +45,15 @@ const CardPrice = styled.p`
 `;
 
 const CardInfoList = styled.ul`
-  height: 35vh;
   font-size: 1rem;
   color: white;
 `;
 
 const Li = styled.li`
   margin: 0.5rem;
+  @media(max-height: 46em) {
+    font-size: 1rem;
+  }
 `;
 
 
@@ -57,12 +71,18 @@ const CardButton = styled.button`
   text-align: center;
 
   cursor: pointer;
+  @media (max-height: 46em) {
+    margin: 0.5rem;
+  }
 `;
 
 const PaymentDisclaimerText = styled.p`
   margin-left: 1rem;
   color: #A9A9AA;
   font-size: 0.6rem;
+  @media (max-height: 46em) {
+    font-size: 0.7rem;
+  }
   @media (max-width: 25em) {
     margin-top: 0;
   }
