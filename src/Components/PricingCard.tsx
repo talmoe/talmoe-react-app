@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {BiInfoCircle} from "react-icons/bi";
 
 
 const PricingCardContainer = styled.div`
@@ -89,9 +90,10 @@ function PricingCard(props: cardProps) {
             </CardPrice>
             <CardInfoList>
                 <Li>Unlock unlimited video and audio uploads</Li>
-                <Li>High quality audio</Li>
+                <Li>High quality audio <BiInfoCircle title={"High quality audio: Equivalent to AAC 320kbps."}/></Li>
                 <Li>Pin your favorite posts</Li>
-                <Li>Motion cover</Li>
+                <Li>Motion cover <BiInfoCircle
+                    title={"Motion covers are animated 30 seconds clips of the regular cover. "}/> </Li>
                 <Li>Send collaboration requests</Li>
                 <Li>Receive two marketplace advertisements monthly, with a duration of 15 days</Li>
             </CardInfoList>
