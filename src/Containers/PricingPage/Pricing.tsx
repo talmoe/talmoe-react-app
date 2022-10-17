@@ -65,8 +65,9 @@ const Slogan = styled.div`
   font-weight: 400;
   font-size: 42px;
   margin-top: 1rem;
-  width: 30rem;
+  width: 35rem;
   color: #B2B0B4;
+  letter-spacing: 2px;
   @media(max-height: 46em) {  
     display: none;
   }

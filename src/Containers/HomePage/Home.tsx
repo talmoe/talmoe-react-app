@@ -77,6 +77,7 @@ const Slogan = styled.div`
   padding: 1rem;
   width: 30rem;
   color: #B2B0B4;
+  letter-spacing: 2px;
 `;
 
 const DownloadButtons = styled.div`
