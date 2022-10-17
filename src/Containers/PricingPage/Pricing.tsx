@@ -44,6 +44,7 @@ const LeftSection = styled.div`
 
 const RightSection = styled.div`
   display: flex;
+  flex-direction: column;
   width: 50%;
   font-size: 22px;
   color: white;
@@ -57,6 +58,15 @@ const RightSection = styled.div`
   }
 `;
 
+const Slogan = styled.div`
+  justify-self: center;
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 1rem;
+  width: 30rem;
+  color: #B2B0B4;
+`;
+
 function Pricing() {
     return (
         <OuterContainer>
@@ -66,6 +76,9 @@ function Pricing() {
                     <ImageSlider/>
                 </LeftSection>
                 <RightSection>
+                    <Slogan>
+                        From talent to spotlight
+                    </Slogan>
                     <PricingCard title={"Talmoe Pro"} price={"Then NOK 49,00 / month"} buttonText={"Try for free"}/>
                 </RightSection>
             </MainSection>
