@@ -34,7 +34,7 @@ const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
   margin-right: 7.5rem;
-  width: 51rem;
+  width: 45rem;
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;
