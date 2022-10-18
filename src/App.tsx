@@ -50,6 +50,10 @@ function App() {
                 window.location.href = 'https://play.google.com/store/apps/details?id=com.talmoe.app&gl=NO';
                 return null;
             }}/>
+            <Route path='/IOSDownloadButton' component={() => {
+                window.location.href = 'https://apps.apple.com/no/app/talmoe/id1636467616?l=nb&fbclid=IwAR1xsNp-KNw45cJSFdt02pVp-FtPsgmQ6LSvI5ICeuQdJwaY10a3W0PpTfk';
+                return null;
+            }}/>
         </div>
     );
 }

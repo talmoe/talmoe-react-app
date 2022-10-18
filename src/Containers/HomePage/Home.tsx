@@ -129,7 +129,7 @@ function Home() {
                         spotlight
                     </Slogan>
                     <DownloadButtons>
-                        <Link to={''}>
+                        <Link to={'IOSDownloadButton'}>
                             <IOSButton src={DownloadButtonIOS}/>
                         </Link>
                         <Link to={'googleDownloadButton'}>

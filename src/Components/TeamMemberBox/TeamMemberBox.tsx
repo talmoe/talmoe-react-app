@@ -11,13 +11,13 @@ const TeamMemberBoxContainer = styled.div`
 const ImageSection = styled.img`
   height: 70%;
   width: 100%;
+  border-radius: 10px;
 `;
 
 const DescriptionSection = styled.div`
   display: flex;
   flex-direction: column;
   height: 25%;
-  justify-content: space-between;
   color: white;
   text-align: center;
 `;

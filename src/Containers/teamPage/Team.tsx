@@ -30,7 +30,7 @@ function Team() {
             <Header/>
             <MainSection>
                 <TeamMemberBox image={mathiasØvreseth} altText={"Portrait of Chief technology officer Mathias Løkkebø Øvreseth"}
-                               jobTitle={"Chief technology officer"} name={"Mathias Løkkebø Øvreseth"}/>
+                               jobTitle={"Chief technology officer"} name={"Mathias L. Øvreseth"}/>
                 <TeamMemberBox image={michalBerg} altText={"Portrait of software developer Michal Berg"}
                                jobTitle={"Software developer"} name={"Michal Berg"}/>
             </MainSection>
