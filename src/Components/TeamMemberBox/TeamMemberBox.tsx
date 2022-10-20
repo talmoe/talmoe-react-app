@@ -12,6 +12,9 @@ const ImageSection = styled.img`
   height: 70%;
   width: 100%;
   border-radius: 10px;
+  @media (max-width: 23em) {
+    height: 60%;
+  }
 `;
 
 const DescriptionSection = styled.div`
