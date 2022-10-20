@@ -31,7 +31,8 @@ const TalmoeLogo = styled.img`
 const NavLinks = styled.nav`
   display: flex;
   justify-content: space-between;
-  width: 50rem;
+  //width: 50rem; // Enable this width when subscription (pricing) is finished
+  width: 40rem;
   align-items: center;
   color: white;
 `;
@@ -66,11 +67,11 @@ function Header() {
                 </NavLink>
             </Link>
 
-            <Link to={"/pricing"}>
-                <NavLink>
-                    Pricing
-                </NavLink>
-            </Link>
+            {/*<Link to={"/pricing"}>*/}
+            {/*    <NavLink>*/}
+            {/*        Pricing*/}
+            {/*    </NavLink>*/}
+            {/*</Link>*/}
 
             <Link to={"/about"}>
                 <NavLink>
@@ -86,9 +87,9 @@ function Header() {
         </NavLinks>
 
         <FAQLink>
-            <Link to={"/faq"}>
-                FAQ
-            </Link>
+            {/*<Link to={"/faq"}>*/}
+            {/*    FAQ*/}
+            {/*</Link>*/}
         </FAQLink>
     </HeaderContainer>
 }
