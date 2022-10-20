@@ -20,7 +20,7 @@ const MainSection = styled.div`
     align-items: center;
     justify-content: center;
   }
-  @media (max-width: 25em) {
+  @media (max-width: 27em) {
     margin: 1rem;
   }
 `;
@@ -55,8 +55,9 @@ const RightSection = styled.div`
   @media (max-width: 61em) {
     width: 70%;
   }
-  @media (max-width: 25em) {
-    margin-top: 0;
+  @media (max-width: 27em) {
+    margin: 0;
+    width: 80%;
   }
 `;
 
@@ -64,6 +65,9 @@ const H1 = styled.h1`
   color: white;
   letter-spacing: 2px;
   margin-bottom: 0.5rem;
+  @media (max-width: 27em) {
+    text-align: center;
+  }
 `;
 
 
