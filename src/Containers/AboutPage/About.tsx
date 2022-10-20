@@ -8,7 +8,9 @@ import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
 `;
 
 const MainSection = styled.div`

@@ -13,7 +13,9 @@ import DownloadButtonIOS from "../../Assets/images/Download - iOS.png"
 const OuterContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
 `;
 
 const MainSection = styled.div`
