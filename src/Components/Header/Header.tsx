@@ -19,7 +19,7 @@ const LogoSection = styled.div`
   width: 30rem;
   margin: 0.3rem 1rem 0 1rem;
   @media (max-width: 27em) {
-    margin: 0.3rem 1rem 0 0;
+    margin: 0.3rem 1rem 0 0.3rem;
     width: 5rem
   }
 `;
@@ -35,6 +35,9 @@ const NavLinks = styled.nav`
   width: 40rem;
   align-items: center;
   color: white;
+  @media (max-width: 27em) {
+    justify-content: space-evenly;
+  }
 `;
 
 const NavLink = styled.div`
@@ -51,6 +54,10 @@ const FAQLink = styled.div`
   @media (max-width: 57em) {
     flex-flow: row;
     padding: 0;
+  }
+  @media (max-width: 27em) {
+    display: none;
+  }
 `;
 
 function Header() {

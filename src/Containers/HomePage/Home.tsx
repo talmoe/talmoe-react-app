@@ -27,6 +27,7 @@ const MainSection = styled.div`
   }
   @media (max-width: 25em) {
     margin: 1rem;
+    padding-left: 1.5rem;
   }
 `;
 
@@ -67,7 +68,7 @@ const RightSection = styled.div`
 const Logo = styled.img`
   width: 31rem;
   height: 12rem;
-  @media (max-width: 25em) {
+  @media (max-width: 27em) {
     width: 23rem;
     height: 9rem;
   }
@@ -93,6 +94,7 @@ const DownloadButtons = styled.div`
     width: 31rem;
     justify-content: center;
   }
+  
 `;
 
 const IOSButton = styled.img`
@@ -102,6 +104,10 @@ const IOSButton = styled.img`
     height: 5rem;
     width: 15rem;
   }
+  @media (max-width: 27em) {
+    height: 64px;
+    width: 180px;
+  }
 `;
 
 const GoogleButton = styled.img`
@@ -110,6 +116,10 @@ const GoogleButton = styled.img`
   @media (max-width: 65em) {
     height: 5rem;
     width: 15rem;
+  }
+  @media (max-width: 27em) {
+    height: 64px;
+    width: 180px;
   }
 `;
 
