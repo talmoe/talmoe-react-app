@@ -72,6 +72,10 @@ const Logo = styled.img`
     width: 23rem;
     height: 9rem;
   }
+  @media (max-width: 23em) {
+    width: 320px;
+    height: 125px;
+  }
 `;
 
 const Slogan = styled.div`
@@ -94,7 +98,6 @@ const DownloadButtons = styled.div`
     width: 31rem;
     justify-content: center;
   }
-  
 `;
 
 const IOSButton = styled.img`
@@ -108,6 +111,10 @@ const IOSButton = styled.img`
     height: 64px;
     width: 180px;
   }
+  @media (max-width: 23em) {
+    height: 50px;
+    width: 160px;
+  }
 `;
 
 const GoogleButton = styled.img`
@@ -120,6 +127,10 @@ const GoogleButton = styled.img`
   @media (max-width: 27em) {
     height: 64px;
     width: 180px;
+  }
+  @media (max-width: 23em) {
+    height: 50px;
+    width: 160px;
   }
 `;
 
