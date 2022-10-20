@@ -16,6 +16,8 @@ const FooterItems = styled.footer`
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
 `
 
 const TalmoeCopyright = styled.div`
