@@ -88,6 +88,9 @@ const Slogan = styled.div`
   width: 30rem;
   color: #B2B0B4;
   letter-spacing: 2px;
+  @media (max-width: 27em) {
+    width: 20rem;
+  }
 `;
 
 const DownloadButtons = styled.div`
@@ -99,6 +102,9 @@ const DownloadButtons = styled.div`
   @media (max-width: 70em) {
     width: 31rem;
     justify-content: center;
+  }
+  @media (max-width: 27em) {
+    width: 25rem ;
   }
 `;
 
