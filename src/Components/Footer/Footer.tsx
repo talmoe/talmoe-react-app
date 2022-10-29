@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import styled from "styled-components";
+import ButtonMailto from "../supportMailComponent";
 
 const FooterContainer = styled.footer`
   display: flex;
@@ -31,10 +32,10 @@ const FooterLinks = styled.div`
   justify-content: space-evenly;
   width: 50rem;
   padding: 5px;
-  @media(max-width: 40em) {
+  @media (max-width: 40em) {
     width: 35rem;
   }
-  @media(max-width: 27em) {
+  @media (max-width: 27em) {
     width: 20rem;
   }
 `;
@@ -66,11 +67,9 @@ function Footer() {
 
                     </Link>
 
-                    <Link to={"/contact"}>
-                        <FooterLink>
-                            Contacts Us
-                        </FooterLink>
-                    </Link>
+                    <FooterLink>
+                        <ButtonMailto mailto={"mailto:support@talmoe.no"} label={"Contact Us"}/>
+                    </FooterLink>
                 </FooterLinks>
             </FooterItems>
         </FooterContainer>
