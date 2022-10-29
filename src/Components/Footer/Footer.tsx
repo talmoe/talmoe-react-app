@@ -68,7 +68,7 @@ function Footer() {
                     </Link>
 
                     <FooterLink>
-                        <ButtonMailto mailto={"mailto:support@talmoe.no"} label={"Contact Us"}/>
+                        <ButtonMailto mailto={"mailto:support@talmoe.com"} label={"Contact Us"}/>
                     </FooterLink>
                 </FooterLinks>
             </FooterItems>
