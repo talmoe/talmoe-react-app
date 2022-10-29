@@ -11,6 +11,7 @@ import Usermanual from './Containers/UserManual/Usermanual';
 import GlobalStyle from "./Styles/Global/GlobalStyles";
 import Pricing from "./Containers/PricingPage/Pricing";
 import Team from "./Containers/teamPage/Team";
+import ScrollToTop from "./Components/scrollToTop";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     return (
         <div className={"Talmoe-app"}>
             <GlobalStyle/>
+            <ScrollToTop/>
             <Route exact path="/">
                 <Home/>
             </Route>

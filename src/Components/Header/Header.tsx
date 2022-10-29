@@ -16,7 +16,8 @@ const HeaderContainer = styled.header`
 `;
 
 const LogoSection = styled.div`
-  width: 30rem;
+  //width: 30rem; //Enable this when rest of the links are re-implemented
+  width: 7rem;
   margin: 0.3rem 1rem 0 1rem;
   @media (max-width: 27em) {
     margin: 0.3rem 1rem 0 0.3rem;
@@ -32,7 +33,8 @@ const NavLinks = styled.nav`
   display: flex;
   justify-content: space-between;
   //width: 50rem; // Enable this width when subscription (pricing) is finished
-  width: 40rem;
+  //width: 40rem;
+  width: 15rem;
   align-items: center;
   color: white;
   @media (max-width: 27em) {
@@ -86,11 +88,11 @@ function Header() {
                 </NavLink>
             </Link>
 
-            <Link to={"/team"}>
-                <NavLink>
-                    Our team
-                </NavLink>
-            </Link>
+            {/*<Link to={"/team"}>*/}
+            {/*    <NavLink>*/}
+            {/*        Our team*/}
+            {/*    </NavLink>*/}
+            {/*</Link>*/}
         </NavLinks>
 
         <FAQLink>
