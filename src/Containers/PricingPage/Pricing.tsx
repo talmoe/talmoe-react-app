@@ -3,7 +3,7 @@ import '../../App.css';
 import styled from "styled-components";
 import Header from "../../Components/Header/Header"
 import Footer from '../../Components/Footer/Footer';
-import PricingCard from "../../Components/PricingCard";
+import PricingCard from "../../Components/PricingCard/PricingCard";
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 
 
