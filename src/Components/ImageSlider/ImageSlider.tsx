@@ -22,7 +22,7 @@ const images = [
 ];
 
 const Component = () => {
-    const {height, width} = useWindowDimensions();
+    const {height} = useWindowDimensions();
     if (height <= 722) {
         return (
             <SimpleImageSlider
