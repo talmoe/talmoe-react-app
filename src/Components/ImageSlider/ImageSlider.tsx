@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import SimpleImageSlider from "react-simple-image-slider";
-import followingFeed from "../../Assets/images/appImages/FollowingFeed.png"
-import newFeed from "../../Assets/images/appImages/NewFeed.png"
-import profileView from "../../Assets/images/appImages/ProfileView.png"
-import videoStream from "../../Assets/images/appImages/VideoStream.png"
+import followingFeed from "../../Assets/images/appImages/FollowingFeed.png";
+import newFeed from "../../Assets/images/appImages/NewFeed.png";
+import profileView from "../../Assets/images/appImages/ProfileView.png";
+import videoStream from "../../Assets/images/appImages/VideoStream.png";
 import useWindowDimensions from "../getWindowDimensions";
 
 
