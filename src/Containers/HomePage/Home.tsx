@@ -152,17 +152,17 @@ function Home() {
                     <ImageSlider/>
                 </LeftSection>
                 <RightSection>
-                    <Logo src={Completelogo}/>
+                    <Logo src={Completelogo} alt={"Talmoe logo"}/>
                     <Slogan>
                         From talent to<br/>
                         spotlight
                     </Slogan>
                     <DownloadButtons>
                         <Link to={'IOSDownloadButton'}>
-                            <IOSButton src={DownloadButtonIOS}/>
+                            <IOSButton src={DownloadButtonIOS} alt={"iOS download button"}/>
                         </Link>
                         <Link to={'googleDownloadButton'}>
-                            <GoogleButton src={DownloadButtonGoogle}/>
+                            <GoogleButton src={DownloadButtonGoogle} alt={"Google play download button"}/>
                         </Link>
                     </DownloadButtons>
                 </RightSection>
