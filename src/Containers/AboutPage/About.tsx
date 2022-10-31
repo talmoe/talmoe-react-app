@@ -32,6 +32,7 @@ const LeftSection = styled.div`
   flex-flow: row-reverse;
   margin-right: 6.5rem;
   width: 45rem;
+  height: max-content;
   @media (max-height: 46em) {
     width: 39rem;
   }

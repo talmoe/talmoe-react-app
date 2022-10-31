@@ -44,7 +44,7 @@ export const SubHeadingBald = styled.p`
 export const ParagraphWhite = styled.p`
   color: #fff;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   padding-bottom: 10px;
 `;
