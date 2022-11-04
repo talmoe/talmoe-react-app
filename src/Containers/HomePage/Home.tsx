@@ -109,36 +109,36 @@ const DownloadButtons = styled.div`
 `;
 
 const IOSButton = styled.img`
-  height: 95px;
-  width: 290px;
+  height: 6rem;
+  width: 18rem;
   @media (max-width: 65em) {
     height: 5rem;
     width: 15rem;
   }
   @media (max-width: 27em) {
-    height: 64px;
-    width: 180px;
+    height: 4rem;
+    width: 11.25rem;
   }
   @media (max-width: 23em) {
-    height: 50px;
-    width: 160px;
+    height: 3rem;
+    width: 10rem;
   }
 `;
 
 const GoogleButton = styled.img`
-  height: 95px;
-  width: 290px;
+  height: 6rem;
+  width: 18rem;
   @media (max-width: 65em) {
     height: 5rem;
     width: 15rem;
   }
   @media (max-width: 27em) {
-    height: 64px;
-    width: 180px;
+    height: 4rem;
+    width: 11.25rem;
   }
   @media (max-width: 23em) {
-    height: 50px;
-    width: 160px;
+    height: 3rem;
+    width: 10rem;
   }
 `;
 
