@@ -11,7 +11,8 @@ const HeaderContainer = styled.header`
   width: 100%;
   background-color: #1D1B26;
   @media (max-width: 27em) {
-    padding: 0 1.6rem;
+    padding: 0 1rem;
+    margin-left: 0.1rem;
   }
 `;
 
@@ -21,7 +22,7 @@ const LogoSection = styled.div`
   margin: 0.3rem 1rem 0 1rem;
   @media (max-width: 27em) {
     margin: 0.3rem 1rem 0 0.3rem;
-    width: 5rem
+    width: 4rem;
   }
 `;
 
@@ -45,6 +46,7 @@ const NavLinks = styled.nav`
 const NavLink = styled.div`
   @media (max-width: 76em) {
     min-width: 5rem;
+  }
 `;
 
 const FAQLink = styled.div`
