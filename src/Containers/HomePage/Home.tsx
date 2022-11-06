@@ -116,7 +116,7 @@ const IOSButton = styled.img`
     width: 15rem;
   }
   @media (max-width: 27em) {
-    height: 4rem;
+    height: 3.6rem;
     width: 11.25rem;
   }
   @media (max-width: 23em) {
@@ -133,7 +133,7 @@ const GoogleButton = styled.img`
     width: 15rem;
   }
   @media (max-width: 27em) {
-    height: 4rem;
+    height: 3.6rem;
     width: 11.25rem;
   }
   @media (max-width: 23em) {
