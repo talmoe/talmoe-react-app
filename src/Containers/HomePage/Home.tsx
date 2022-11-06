@@ -75,8 +75,8 @@ const Logo = styled.img`
     height: 9rem;
   }
   @media (max-width: 23em) {
-    width: 320px;
-    height: 125px;
+    width: 20rem;
+    height: 7.8rem;
   }
 `;
 
