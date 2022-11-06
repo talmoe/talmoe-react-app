@@ -105,6 +105,7 @@ const DownloadButtons = styled.div`
   }
   @media (max-width: 27em) {
     width: 23rem;
+    align-items: center;
   }
 `;
 
