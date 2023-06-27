@@ -7,7 +7,6 @@ export const Heading = styled.text`
   letter-spacing: 0.5px;
 `;
 
-
 export const HeaderSmall = styled.text`
   color: #fff;
   font-size: 28px;
@@ -19,14 +18,12 @@ export const P1 = styled.p`
   font-size: 18px;
   letter-spacing: 0.5px;
   text-align: center;
-
 `;
 export const P2 = styled.p`
   color: #fff;
   margin: 0;
   font-size: 14px;
   letter-spacing: 0.5px;
-
 `;
 export const HeadingBald = styled.p`
   color: #fff;
@@ -55,9 +52,9 @@ export const PrivacyPolicyAndTermsOfServiceOuterDiv = styled.div`
   justify-content: center;
 `;
 export const PrivacyPolicyAndTermsOfServiceInnerDiv = styled.div`
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
 `;
 export const LinkOrange = styled.a`
-  color: #FFC17D;
+  color: #ffc17d;
 `;

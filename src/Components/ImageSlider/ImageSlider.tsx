@@ -1,61 +1,59 @@
 import styled from "styled-components";
 import SimpleImageSlider from "react-simple-image-slider";
-import followingFeed from "../../Assets/images/appImages/FollowingFeed.png";
-import newFeed from "../../Assets/images/appImages/NewFeed.png";
-import profileView from "../../Assets/images/appImages/ProfileView.png";
-import videoStream from "../../Assets/images/appImages/VideoStream.png";
+
+import stream from "../../Assets/images/appImages/Stream.png";
+import follow from "../../Assets/images/appImages/Follow.png";
+import discover from "../../Assets/images/appImages/Discover.png";
+import feed from "../../Assets/images/appImages/Feed.png";
+
 import useWindowDimensions from "../getWindowDimensions";
 
-
 const ImageSliderContainer = styled.div`
-  left: 200px;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 22px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
   margin: 1rem;
+  z-index: 99;
 `;
 
-const images = [
-    videoStream,
-    followingFeed,
-    newFeed,
-    profileView,
-];
+const images = [stream, follow, discover, feed];
 
 const Component = () => {
-    const {height} = useWindowDimensions();
-    if (height <= 722) {
-        return (
-            <SimpleImageSlider
-                width={253}
-                height={548}
-                style={{borderRadius: 22}}
-                images={images}
-                showBullets={false}
-                showNavs={false}
-                autoPlay={true}
-                autoPlayDelay={2.0}
-            />
-        );
-    } else {
-        return (
-            <SimpleImageSlider
-                width={352}
-                height={762}
-                style={{borderRadius: 22}}
-                images={images}
-                showBullets={false}
-                showNavs={false}
-                autoPlay={true}
-                autoPlayDelay={2.0}
-            />
-        );
-    }
-}
+  const { height } = useWindowDimensions();
+  if (height <= 722) {
+    return (
+      <SimpleImageSlider
+        width={253}
+        height={548}
+        style={{ borderRadius: 20 }}
+        images={images}
+        showBullets={false}
+        showNavs={false}
+        autoPlay={true}
+        autoPlayDelay={2.0}
+      />
+    );
+  } else {
+    return (
+      <SimpleImageSlider
+        width={352}
+        height={762}
+        style={{ borderRadius: 20 }}
+        images={images}
+        showBullets={false}
+        showNavs={false}
+        autoPlay={true}
+        autoPlayDelay={2.0}
+      />
+    );
+  }
+};
 
 function ImageSlider() {
-    return <ImageSliderContainer>
-        <Component/>
+  return (
+    <ImageSliderContainer>
+      <Component />
     </ImageSliderContainer>
+  );
 }
 
 export default ImageSlider;
