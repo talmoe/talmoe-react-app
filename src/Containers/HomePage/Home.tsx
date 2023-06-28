@@ -38,19 +38,21 @@ const LeftSection = styled.div`
   margin-bottom: 3rem;
   margin-right: 7.5rem;
   margin-left: 7.5rem;
-  width: 50%;
+  width: 40%;
 
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;
     width: 40%;
     padding-right: 3rem;
+    padding-left: 2rem;
   }
-  @media (max-width: 61em) {
+  @media (max-width: 36em) {
     width: 50%;
     justify-content: center;
     align-items: center;
     padding-right: 0rem;
+    padding-left: 2rem;
   }
 `;
 
@@ -58,7 +60,7 @@ const RightSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   font-size: 22px;
   color: white;
   @media (max-width: 61rem) {
@@ -103,10 +105,12 @@ const DownloadButtons = styled.div`
   @media (max-width: 70em) {
     width: 27rem;
     justify-content: center;
+    padding-left: 2rem;
   }
   @media (max-width: 35em) {
     width: 22rem;
     align-items: center;
+    padding-left: 2rem;
   }
 `;
 

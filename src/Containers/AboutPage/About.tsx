@@ -65,6 +65,7 @@ const RightSection = styled.div`
   @media (max-width: 27em) {
     margin: 0;
     width: 80%;
+    padding-left: 2rem;
   }
 `;
 
