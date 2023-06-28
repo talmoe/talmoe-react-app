@@ -39,9 +39,7 @@ const LeftSection = styled.div`
   margin-right: 7.5rem;
   margin-left: 7.5rem;
   width: 50%;
-  @media (max-height: 46em) {
-    width: 90%;
-  }
+
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;

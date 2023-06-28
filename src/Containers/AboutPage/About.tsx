@@ -35,20 +35,19 @@ const LeftSection = styled.div`
   margin-bottom: 3rem;
   width: 50%;
   height: max-content;
-  @media (max-height: 46em) {
-    width: 100%;
-    padding-right: 0rem;
-  }
+
   @media (max-width: 76em) {
     flex-flow: row;
     margin: auto;
     width: 40%;
-    padding-right: 0rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
   @media (max-width: 61em) {
     justify-content: center;
     align-items: center;
-    padding-right: 0rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 `;
 
