@@ -31,6 +31,8 @@ const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
   padding-right: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 50%;
   height: max-content;
   @media (max-height: 46em) {
@@ -78,7 +80,7 @@ const H1 = styled.h1`
 
 const P = styled.p`
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding-right: 8rem;
   margin-top: 0;
   @media (max-height: 46em) {

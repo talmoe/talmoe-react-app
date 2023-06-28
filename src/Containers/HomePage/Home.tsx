@@ -6,8 +6,8 @@ import Footer from "../../Components/Footer/Footer";
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 import { Link } from "react-router-dom";
 import Completelogo from "../../Assets/images/CompleteLogo.png";
-import DownloadButtonGoogle from "../../Assets/images/Download - Google play.png";
-import DownloadButtonIOS from "../../Assets/images/Download - iOS.png";
+import DownloadButtonGoogle from "../../Assets/images/download_google.png";
+import DownloadButtonIOS from "../../Assets/images/download_ios.png";
 
 const OuterContainer = styled.div`
   display: flex;
@@ -34,7 +34,10 @@ const MainSection = styled.div`
 const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   margin-right: 7.5rem;
+  margin-left: 7.5rem;
   width: 50%;
   @media (max-height: 46em) {
     width: 90%;
@@ -67,12 +70,12 @@ const RightSection = styled.div`
 
 const Logo = styled.img`
   width: 30rem;
-  height: 12rem;
+  height: 14rem;
 
   @media (max-width: 35em) {
     padding-left: 2rem;
     width: 19.5rem;
-    height: 7.8rem;
+    height: 8.8rem;
   }
 `;
 
@@ -110,21 +113,21 @@ const DownloadButtons = styled.div`
 `;
 
 const IOSButton = styled.img`
-  height: 5rem;
+  height: 5.5rem;
   width: 15rem;
 
   @media (max-width: 35em) {
-    height: 3.5rem;
+    height: 4rem;
     width: 10.5rem;
   }
 `;
 
 const GoogleButton = styled.img`
-  height: 5rem;
+  height: 5.5rem;
   width: 15rem;
 
   @media (max-width: 35em) {
-    height: 3.5rem;
+    height: 4rem;
     width: 10.5rem;
   }
 `;

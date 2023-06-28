@@ -9,6 +9,7 @@ const HeaderContainer = styled.header`
   z-index: 100;
   align-items: center;
   font-size: 1.2rem;
+  height: 5rem;
   width: 100%;
   background-color: #1d1b26;
   @media (max-width: 27em) {
@@ -19,9 +20,9 @@ const HeaderContainer = styled.header`
 
 const LogoSection = styled.div`
   width: 3rem;
-  margin: 1rem 2rem 0.5rem 1rem;
+  margin: 2rem 3rem 1rem 2rem;
   @media (max-width: 27em) {
-    margin: 1rem;
+    margin: 2rem;
     width: 4rem;
   }
 `;

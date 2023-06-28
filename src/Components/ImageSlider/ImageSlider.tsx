@@ -18,12 +18,12 @@ const ImageSliderContainer = styled.div`
 const images = [stream, follow, discover, feed];
 
 const Component = () => {
-  const { height } = useWindowDimensions();
-  if (height <= 722) {
+  const { width } = useWindowDimensions();
+  if (width > 722) {
     return (
       <SimpleImageSlider
-        width={253}
-        height={548}
+        width={300}
+        height={648}
         style={{ borderRadius: 20 }}
         images={images}
         showBullets={false}
@@ -35,8 +35,8 @@ const Component = () => {
   } else {
     return (
       <SimpleImageSlider
-        width={352}
-        height={762}
+        width={240}
+        height={518}
         style={{ borderRadius: 20 }}
         images={images}
         showBullets={false}
