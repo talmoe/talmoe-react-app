@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 import { Link } from "react-router-dom";
-import Completelogo from "../../Assets/images/CompleteLogo.png";
+import Completelogo from "../../Assets/images/TalmoeLogo_Complete.png";
 import DownloadButtonGoogle from "../../Assets/images/download_google.png";
 import DownloadButtonIOS from "../../Assets/images/download_ios.png";
 
