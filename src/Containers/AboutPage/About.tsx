@@ -30,24 +30,23 @@ const MainSection = styled.div`
 const LeftSection = styled.div`
   display: flex;
   flex-flow: row-reverse;
-  padding-right: 10rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  width: 50%;
-  height: max-content;
+  margin-right: 7.5rem;
+  margin-left: 7.5rem;
+  width: 40%;
 
   @media (max-width: 76em) {
-    flex-flow: row;
     margin: auto;
     width: 40%;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 3rem;
   }
-  @media (max-width: 61em) {
+  @media (max-width: 36em) {
+    width: 100%;
     justify-content: center;
     align-items: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding: 0;
+    margin: 0;
   }
 `;
 

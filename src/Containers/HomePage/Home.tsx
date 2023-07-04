@@ -14,7 +14,7 @@ const OuterContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100%;
 `;
 
 const MainSection = styled.div`
@@ -41,18 +41,16 @@ const LeftSection = styled.div`
   width: 40%;
 
   @media (max-width: 76em) {
-    flex-flow: row;
     margin: auto;
     width: 40%;
     padding-right: 3rem;
-    padding-left: 2rem;
   }
   @media (max-width: 36em) {
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    padding-right: 0rem;
-    padding-left: 2rem;
+    padding: 0;
+    margin: 0;
   }
 `;
 
@@ -71,11 +69,12 @@ const RightSection = styled.div`
 const Logo = styled.img`
   width: 30rem;
   height: 14rem;
+  justify-content: center;
 
   @media (max-width: 35em) {
-    padding-left: 2rem;
     width: 19.5rem;
     height: 8.8rem;
+    justify-content: center;
   }
 `;
 
@@ -89,7 +88,7 @@ const Slogan = styled.div`
   letter-spacing: 2px;
   @media (max-width: 35em) {
     width: 19.5rem;
-    padding-left: 2rem;
+
     font-size: 2rem;
   }
 `;
@@ -108,9 +107,8 @@ const DownloadButtons = styled.div`
     padding-left: 2rem;
   }
   @media (max-width: 35em) {
-    width: 22rem;
+    width: 80%;
     align-items: center;
-    padding-left: 2rem;
   }
 `;
 

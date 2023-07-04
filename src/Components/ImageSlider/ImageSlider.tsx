@@ -12,7 +12,9 @@ const ImageSliderContainer = styled.div`
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin: 1rem;
+  align-items: center;
   z-index: 99;
+  overflow-x: hidden;
 `;
 
 const images = [stream, follow, discover, feed];

@@ -44,6 +44,10 @@ const FooterLinks = styled.div`
 const FooterLink = styled.div`
   font-size: 1.2rem;
   text-align: center;
+  @media (max-width: 27em) {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+  }
 `;
 
 function Footer() {
